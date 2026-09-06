@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071513">
+  <meta name="description" content="Информация для потребителей: реквизиты исполнителя, нормативные документы, контакты и сведения о точке обслуживания.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="site-config.js"></script>
+  <script defer src="assets/app.js"></script>
+  <title>Кракен — Информация для потребителей</title>
+</head>
+<body>
+<a class="skip" href="#content">К содержанию</a>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top" aria-label="К началу страницы">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.5 14.5C3.7 15 3.1 18 5 19.3c1.8 1.2 3.7-.2 3.3-2M10 15c-1.4 3.9 1.3 6 3.2 4.5 1.7-1.3.8-3.4-.2-4.6M14.7 14.5c2.8 1.6 5.4.2 5.2-2-.2-2.3-2.7-2.7-4.1-1.4"/><path d="M6.4 11.4A5.7 5.7 0 1 1 17.6 10c0 3.2-2.6 5.7-5.7 5.7-2.7 0-5-1.8-5.5-4.3Z"/><circle cx="10" cy="9.2" r=".7" fill="currentColor" stroke="none"/><circle cx="14" cy="9.2" r=".7" fill="currentColor" stroke="none"/></svg>
+      </span>
+      <span>Кракен</span>
+    </a>
+    <div class="top-address"><strong id="pointNameTop">Точка</strong><br><span id="pointAddressTop">Адрес</span></div>
+  </div>
+</header>
+<main id="content">
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-card">
+        <div class="eyebrow"><span class="eyebrow-dot"></span><span id="pointName">Точка обслуживания</span></div>
+        <h1>Информация для потребителей</h1>
+        <p class="lead">Реквизиты исполнителя, документы, контакты контролирующих органов и информация об обслуживании в одном месте.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#documents">Документы
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </a>
+          <a class="btn" id="mapLink" href="#" target="_blank" rel="noopener">Открыть на карте
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.1 7-12a7 7 0 1 0-14 0c0 6.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true"><img src="assets/hero.svg" alt=""></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Исполнитель и адрес</h2></div><p>Сведения об индивидуальном предпринимателе и конкретном месте оказания услуг.</p></div>
+      <div class="grid">
+        <article class="card">
+          <h3 class="card-title"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V7l8-4 8 4v14"/><path d="M8 21v-6h8v6M8 9h.01M12 9h.01M16 9h.01"/></svg></span>Информация об исполнителе</h3>
+          <dl class="kv">
+            <dt>Исполнитель</dt><dd>ИП Халикова Оксана Сергеевна</dd>
+            <dt>ИНН</dt><dd>026206998019</dd>
+            <dt>ОГРНИП</dt><dd>326028000040309</dd>
+            <dt>Дата регистрации</dt><dd>12 февраля 2026 года</dd>
+            <dt>Регистрирующий орган</dt><dd>Межрайонная ИФНС России № 39 по Республике Башкортостан</dd>
+            <dt>Основной ОКВЭД</dt><dd>56.10.1 — деятельность ресторанов и кафе</dd>
+          </dl>
+        </article>
+        <article class="card">
+          <h3 class="card-title"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.1 7-12a7 7 0 1 0-14 0c0 6.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg></span>Точка обслуживания</h3>
+          <dl class="kv">
+            <dt>Адрес</dt><dd id="pointAddress">Адрес</dd>
+            <dt>Режим работы</dt><dd id="hours" class="hours-warning">УКАЖИТЕ ПЕРЕД ПУБЛИКАЦИЕЙ</dd>
+            <dt>Телефон</dt><dd><a href="tel:+79011149833">+7 901 114-98-33</a></dd>
+            <dt>E-mail</dt><dd><a href="mailto:Krakenoren88@yandex.ru">Krakenoren88@yandex.ru</a></dd>
+          </dl>
+          <div class="contact-row"><a class="btn" id="mapLink2" href="#" target="_blank" rel="noopener">Маршрут на карте</a><a class="btn" href="tel:+79011149833">Позвонить</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="documents">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Нормативные документы</h2></div><p>Ссылки ведут на актуальные тексты документов в правовых системах и на официальные ресурсы.</p></div>
+      <div class="doc-grid">
+        <a class="doc" href="https://www.consultant.ru/document/cons_doc_LAW_305/" target="_blank" rel="noopener">
+          <span class="doc-kicker">Закон РФ № 2300-1</span><h3>О защите прав потребителей</h3><p>Актуальный текст закона с учётом вступивших в силу изменений.</p><span class="doc-go">Открыть документ →</span>
+        </a>
+        <a class="doc" href="https://www.consultant.ru/document/cons_doc_LAW_363241/" target="_blank" rel="noopener">
+          <span class="doc-kicker">ПП РФ № 1515</span><h3>Правила оказания услуг общественного питания</h3><p>Действующие правила для предприятий общественного питания.</p><span class="doc-go">Открыть документ →</span>
+        </a>
+        <a class="doc" href="https://www.consultant.ru/document/cons_doc_LAW_535846/" target="_blank" rel="noopener">
+          <span class="doc-kicker">СанПиН 2.3/2.4.4282-26</span><h3>Санитарные требования к общепиту</h3><p>Новые санитарно-эпидемиологические правила, действующие с 1 сентября 2026 года.</p><span class="doc-go">Открыть документ →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Информация об обслуживании</h2></div><p>Основные сведения, которые могут понадобиться посетителю непосредственно в ресторане.</p></div>
+      <div class="grid">
+        <article class="card">
+          <div class="notice"><div class="notice-ill"><img src="assets/documents.svg" alt=""></div><div><h3 class="card-title">Книга отзывов и предложений</h3><p>Книга отзывов и предложений предоставляется потребителю по его требованию. Обратитесь к администратору.</p></div></div>
+        </article>
+        <article class="card">
+          <div class="notice"><div class="notice-ill"><img src="assets/scales.svg" alt=""></div><div><h3 class="card-title">Контрольное взвешивание</h3><p>По требованию потребителю предоставляется возможность проверить объём или массу продукции общественного питания с использованием необходимых средств измерения.</p></div></div>
+        </article>
+        <article class="card full">
+          <h3 class="card-title"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/><path d="M12 16v-5M12 8h.01"/></svg></span>Информация о продукции</h3>
+          <p>Сведения о наименовании блюд, основных ингредиентах, массе/объёме порции, пищевой ценности и цене предоставляются в меню и другими способами, принятыми в ресторане.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Защита прав потребителей</h2></div><p>Контакты территориального органа Роспотребнадзора.</p></div>
+      <article class="card full">
+        <h3 class="card-title"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v5c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V6l-8-3Z"/><path d="m9.5 12 1.7 1.7 3.8-4"/></svg></span>Управление Роспотребнадзора по Оренбургской области</h3>
+        <dl class="kv">
+          <dt>Адрес</dt><dd>460021, г. Оренбург, ул. 60 лет Октября, д. 2/1</dd>
+          <dt>Сайт</dt><dd><a href="https://56.rospotrebnadzor.ru/" target="_blank" rel="noopener">56.rospotrebnadzor.ru</a></dd>
+          <dt>Единый консультационный центр</dt><dd><a href="tel:88005554943">8 800 555-49-43</a></dd>
+        </dl>
+        <div class="contact-row"><a class="btn btn-primary" href="https://56.rospotrebnadzor.ru/" target="_blank" rel="noopener">Перейти на сайт Роспотребнадзора</a></div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="wrap footer-inner"><div><strong>Кракен • Информация для потребителей</strong><div class="meta">ИП Халикова Оксана Сергеевна • ИНН 026206998019</div></div><div class="meta">Правовые ссылки проверены: <span id="checkedDate">06.09.2026</span></div></div>
+</footer>
+</body>
+</html>

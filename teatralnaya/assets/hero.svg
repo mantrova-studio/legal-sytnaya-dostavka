@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#143b33"/><stop offset="1" stop-color="#071c18"/></linearGradient>
+ <radialGradient id="r" cx="50%" cy="40%" r="55%"><stop stop-color="#7ce5bb" stop-opacity=".30"/><stop offset="1" stop-color="#7ce5bb" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="900" height="900" fill="url(#g)"/>
+<circle cx="450" cy="380" r="300" fill="url(#r)"/>
+<g opacity=".16" fill="none" stroke="#9ff0ce" stroke-width="2">
+ <circle cx="450" cy="380" r="220"/><circle cx="450" cy="380" r="280"/><circle cx="450" cy="380" r="340"/>
+</g>
+<g transform="translate(450 415)" fill="none" stroke="#baf5dc" stroke-linecap="round">
+ <path d="M-78 26 C-190 55 -220 142 -162 198 C-113 246 -51 204 -86 161" stroke-width="24" opacity=".88"/>
+ <path d="M-33 46 C-104 134 -72 249 8 248 C78 247 90 167 47 141" stroke-width="24" opacity=".78"/>
+ <path d="M30 45 C93 130 187 157 223 88 C250 35 198 -18 147 20" stroke-width="24" opacity=".68"/>
+ <path d="M77 20 C195 22 238 -77 174 -130 C118 -176 52 -127 83 -74" stroke-width="24" opacity=".58"/>
+ <path d="M-116 15 C-215 -30 -204 -132 -125 -163 C-60 -188 -14 -126 -49 -86" stroke-width="24" opacity=".72"/>
+ <circle cx="0" cy="-20" r="104" fill="#0b2822" stroke="#7ce5bb" stroke-width="4"/>
+ <path d="M-45 -18 Q0 18 45 -18" stroke-width="8"/>
+ <circle cx="-38" cy="-48" r="7" fill="#baf5dc" stroke="none"/><circle cx="38" cy="-48" r="7" fill="#baf5dc" stroke="none"/>
+</g>
+<g opacity=".55" filter="url(#blur)"><circle cx="120" cy="125" r="35" fill="#76dcb4"/><circle cx="805" cy="710" r="55" fill="#76dcb4"/></g>
+<text x="450" y="760" text-anchor="middle" fill="#d8f9ec" font-family="Arial, sans-serif" font-size="34" font-weight="700">ИНФОРМАЦИЯ ДЛЯ ПОТРЕБИТЕЛЕЙ</text>
+<text x="450" y="805" text-anchor="middle" fill="#8fb8aa" font-family="Arial, sans-serif" font-size="20">документы • реквизиты • контакты</text>
+</svg>
